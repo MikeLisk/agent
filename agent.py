@@ -95,7 +95,7 @@ class ReActAgent:
     def get_api_key() -> str:
         """Load the API key from an environment variable."""
         load_dotenv()
-        api_key = "sk-5b272b5c8e1d43ab915a812c17186a2c"
+        api_key = "sk-"
         return api_key
 
     def call_model(self, messages):
